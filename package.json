@@ -1,0 +1,24 @@
+{
+  "name": "excel-app",
+  "version": "1.0.0",
+  "description": "excel on pure js",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeneKopyl/Excel-app.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Eugene Kopyl <eugen.kopyl@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeneKopyl/Excel-app/issues"
+  },
+  "homepage": "https://github.com/EugeneKopyl/Excel-app#readme"
+}

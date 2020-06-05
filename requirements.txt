@@ -1,0 +1,32 @@
+Webpack (imports/expots)
+    Babel
+    Scss
+    Eslint
+    2 Modes
+        - Dev
+            - Dev Server
+            - SourceMaps
+            - Eslint
+            - Not Minified JS & CSS
+        -Prod
+            - Minified Code
+Git
+
+    Production
+        1.0.0
+        -----------
+    Development
+        1.0.2
+        1--------------
+        2------------------
+
+1. создаем проект на github.
+2. создаем файл в корне директории проекта .gitignore
+3. git init - инициализация
+4. git add . - добавление файлов
+5. git commit -m "initial" - закомитить файлы
+6. git remote add origin 'url' - добавляем ссылку на гит
+7. git push -u origin ma ster - заливает код в репозиторий
+8. git checkout -b "webpack" - создаем новую ветку для вебпака
+9. создаем файл под новой веткой webpack.config.js
+10.
