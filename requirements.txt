@@ -29,4 +29,40 @@ Git
 7. git push -u origin ma ster - заливает код в репозиторий
 8. git checkout -b "webpack" - создаем новую ветку для вебпака
 9. создаем файл под новой веткой webpack.config.js
-10.
+10. git add . - добавляем файлы в ветку
+11. git commit -m "create webpack config" - коммитим их
+12. git push -u origin webpack - пушим файлы в ветку вебпака
+13. npm init - инициализируем npm (отвечаем на вопросы, название проекта, описание, git, теги, автор)
+14. npm install webpack webpack-cli --save-dev - устанавливаем вебпак, инструкция https://webpack.js.org/guides/getting-started/
+15. package.json
+        "start": "webpack"    // npm run start для сбора всех файлов в один (bundle.js)
+        "build": "webpack --mode production" // npm run build собирает и минимизирует все файлы
+16. webpack.config.js добавляем плагины (https://webpack.js.org/plugins/)
+17. plugins (npm install --save-dev html-webpack-plugin)
+            (npm install copy-webpack-plugin --save-dev)
+            (npm install --save-dev clean-webpack-plugin) чистит необходимую папку
+            (npm install --save-dev mini-css-extract-plugin) выносит мини css из JS файла
+18. устанавливаем loaders на сайте (https://webpack.js.org/loaders/)
+        (npm install sass-loader sass --save-dev)
+        (npm i -D css-loader) прописываем их в конфиг
+        (npm install --save-dev babel-loader @babel/core)
+        (npm install @babel/preset-env --save-dev)
+19. устанавливаем npm i -D cross-env
+        npm install webpack-dev-server --save-dev
+        npm install --save @babel/polyfill
+20. установка Eslint
+        npm i eslint eslint-loader babel-eslint -d
+21. добавляем файл в корень .eslintrc и .eslintignore
+22. устанавливаем npm i -D eslint-config-google
+        настраиваем правила eslint
+23. Добавляем все файлы в git add .
+        git commit -m "Finish project config" // коммитим
+        git push -u origin webpack // заливаем на гит в ветку вебпак
+        git checkout master
+        git pull
+
+
+
+
+
+
