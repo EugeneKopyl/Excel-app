@@ -29,7 +29,8 @@ console.log('IS PROD', isProd)
 console.log('IS DEV', isDev)
 
 module.exports = {
-  context: path.resolve(__dirname, 'src'), // вебпак будет смотреть за всеми исходниками в паапке src
+  // вебпак будет смотреть за всеми исходниками в папке src
+  context: path.resolve(__dirname, 'src'),
   mode: 'development',
   entry: ['@babel/polyfill', './index.js'], // входные точки для приложений
   output: {
@@ -54,7 +55,7 @@ module.exports = {
     new HTMLWebpackPlugin({
       template: 'index.html',
       minify: {
-        removeComents: isProd,
+        removeComments: isProd,
         collapseWhitespace: isProd,
       },
     }),
