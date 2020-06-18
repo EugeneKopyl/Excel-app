@@ -62,6 +62,8 @@ Git
         git pull
 
 
+eslint ./src
+
 
 
 
